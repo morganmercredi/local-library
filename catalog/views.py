@@ -8,7 +8,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.urls import reverse_lazy
 from django.contrib.auth.decorators import login_required, permission_required
 
-from .models import Book, Author, BookInstance, Genre
+from .models import Book, Author, BookInstance
 import datetime
 
 from catalog.forms import RenewBookForm
